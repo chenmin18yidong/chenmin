@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>博雅互动</title>
+</head>
+<body>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "微软雅黑";
+    height: 888px;
+}
+ul li{
+    list-style: none;
+}
+.inner_c{
+    width: 1000px;
+    margin: 0 auto;
+  
+}
+.cl{
+    clear: both;
+}
+/* header bagin */
+.header{
+    width: 100%;
+    height: 58px;
+    background: #191D3A;
+}
+.header .header_1{
+position: relative;
+
+}
+.header .logo{
+    float: left;
+    padding-left: 17px;
+    margin-right: 44px;
+    width: 164px;
+    height: 55px;
+}
+.header .logo a{
+    display: block ;
+    width: 250px;
+    height: 55px;
+background:  url(../images/boyalogo.png) no-repeat;
+text-indent: -12222em;
+
+}
+/* 导航部分 */
+.header .nav{
+    list-style: none;
+    float: left;
+    /* 87*58 */
+
+}
+.header .nav li{
+    float: left;
+    width: 87px;
+    height: 58px;  
+    border-left: 1px solid #252947;
+}
+.header .nav li a{
+    display: block;
+    width: 87px;
+    height: 58px;
+    color: #818496;
+    text-align: center;
+    line-height: 58px;
+    text-decoration: none;
+    
+}
+.header .nav li a:hover{
+    color: #e2e4ed;
+}
+.header .nav .current{
+    background: #252947;
+
+}
+.header .nav .last{
+  border-right: 1px solid #252947;
+}
+
+/* 加入我们 */
+.header .jrwm{
+    float: left;
+   
+}
+.header .jrwm a{
+    display: block; 
+    width: 98px;
+    /* 98-10 */
+    height: 32px;
+    /* 32-12 */
+    margin:  12px 0 0 10px;
+    background: #38b774;
+    /* 圆角矩形 */
+    border-radius: 5px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    font-style: 14px;
+    text-decoration: none;
+    border: 1px #3aca7a;
+
+}
+.header  .jrwm a:hover{
+   background: #24975a;
+}
+/* 语言 */
+.header .header_1 .hh{
+    position: absolute;
+    top: 22px;
+    right: 0;
+
+}
+.header .header_1 .hh .aa1{
+    color: #38b774;
+    text-decoration: none;
+}
+.header .header_1 .hh .aa2{
+    color:#818496;
+    text-decoration: none;
+}
+.header  .header_1  .aa2:hover{
+color: #38b774;
+}
+/* head end */
+
+/* banner begig */
+.banner{
+    position: relative;
+    height: 460px;
+    background: url(../images/boyabanner.jpg) no-repeat center bottom;
+
+}
+.banner .dian1{
+    position: absolute;
+    bottom: 20px;
+    left: 50% ;
+    width: 120px;
+    height: 12px;
+  margin-left: -60px;
+   cursor: pointer;
+}
+.banner .dian1 ul li{
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-right: 15px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    text-indent: -9999em;
+    opacity: 0.5;
+    z-index: 5;
+}
+.banner .dian1 ul .on{
+    background: rgb(255, 255, 255);
+    opacity:1;
+}
+
+/* banner end */
+/* product begin */
+.content{
+    padding-top: 50px;
+    height: 650px;
+    background: url(../images/indexmainbg.jpg) no-repeat center bottom;
+
+}
+.content .product{
+    height: 230px;
+    border: 1px #dbe1e7;
+}
+.content .product ul li{
+    float: left;
+    width: 218px;
+    margin-right: 43px;
+
+}
+.content .product ul .last2{
+    width: 217px;
+    margin-right: 0px;
+
+}
+.content .product ul li .por_img img{
+    width: 100%;
+
+}
+.content .product ul li h3{
+    text-align: center ;
+    height: 40px;
+    list-style: 40px;
+    font-weight:bold;
+}
+.content .product ul li .play{
+    text-align: center;
+}
+.content .product ul li .play a{
+    font: 12px/12px "微软雅黑";
+    text-decoration: none;
+    background: url(../images/sanjiaoxing.png) no-repeat right center;
+    color: #38b774;
+    padding-right: 10px;
+}
+/* product end */
+/* info begin */
+.content .info{
+    padding-top: 53px;
+}
+.content .info .boyaanews{
+    position: relative;
+    float: left;
+    width: 500px;
+    background: url(../images/bynewsbg.jpg) no-repeat;
+    padding-top: 121px;
+}
+.content .info .boyaanews .more{
+    display: block ;
+    position:absolute;
+    top: 40px;
+    left: 220px;
+    width: 67px;
+    height: 28px; 
+    color:#30bd72;
+    border:  1px solid #30bd72;
+    border-radius: 5px;
+    text-decoration: none;
+    font-style: 12px;
+    text-align: center ;
+      /* background: url(./images/more.png) no-repeat; */
+}
+
+.content .info .boyaanews .more:hover{
+  color: #fff;
+  background:#30bd72;
+    border:  1px solid #30bd72;
+}
+.content .info .boyaanews ul{
+    padding: 20px;
+}
+.content .info .boyaanews ul li{
+    height: 50px;
+    /* padding: 10px; */
+    border-bottom: 1px solid #dbe1e7;
+}
+
+.content .info .boyaanews ul li a{
+    float: left;
+      display: block ;
+      height: 49px;
+      line-height: 49px;
+      text-align: left;
+      font-size: 14px;
+      color: #444866;
+      text-decoration: none;
+}
+.content .info .boyaanews ul li a:hover{
+    color: #30bd72
+}
+.content .info .boyaanews ul li span{
+    display: block ;
+    float: right;
+    height: 49px;
+    font-size: 14px;
+    color: #afbecf;
+    margin-right: 10px;
+}
+.content .info .byzp{
+    display: block;
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 310px;
+    margin-top: 40px;
+    background: url(../images/byhrbg3.jpg) no-repeat;
+    }
+    .content .info .byzp .kk{
+    padding: 40px 216px 0 0;
+    }
+    .content .info .byzp h2{
+    /* width: 112px;
+    height: 34px; */
+    display: block;
+    float: left;
+    font-size: 28px;
+    line-height: 34px;
+    padding: 0 0 0 80px;
+    color: #fff;
+    }
+    .content .info .byzp p{
+    width: 110px;
+    padding-left: 80px;
+    font-size: 12px;
+    color: #fff;
+    padding-top: 30px;
+    }
+    .content .info .byzp .more{
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 220px;
+    width: 64px;
+    height: 26px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    }
+    .content .info .byzp .more:hover{
+    color: #30bd72;
+    background: #fff;
+    border: 1px solid #fff;
+    /* background: url(./images/more2.png) no-repeat; */
+    }
+    .content .info .byzp h4{
+    font-size: 14px;
+    color: #fff;
+    }
+    .content .info .byzp ul{
+    padding: 20px;
+    }
+    .content .info .byzp ul li{
+    width: 305px;
+    height: 40px;
+    border-bottom: 1px solid #6FDEA3;
+    }
+    .content .info .byzp ul li a{
+    float: left;
+    display: block;
+    margin-top: 10px;
+    text-align:left;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    }
+    /* 博雅招聘 结束 */
+    
+    /*========footer========*/
+    footer{
+    margin-top: 20px;
+    height: 192px;
+    width: 100%;
+    background-color: #191d3a;;
+    }
+    footer div{
+    width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+    }
+    footer div p{
+    font-size: 12px;
+    color:gray;
+    line-height: 50px;
+    }
+    footer div p img{
+    float: right;
+    margin-top: -65px;
+    /* margin-left: 40px; */
+    width: 35px;
+    cursor: pointer;
+    }
+        
+        </style>
+
+<div class="header">
+        <div class="header_1 inner_c">
+         <h1 class="logo"><a href="index.html">博雅互动</a></h1> 
+        <ul class="nav">
+       <li ><a href="">首页</a> </li>
+       <li class="current"><a href="#">博雅游戏</a> </li>
+       <li><a href="#">博雅新闻</a> </li>
+       <li><a href="#">关于我们</a> </li>
+       <li><a href="#">客服中心</a> </li>
+       <li class="last"><a href="#">投资者关系</a> </li>
+  
+        </ul>
+   <div class="jrwm"><a href="">加入我们</a></div> 
+   <div class="hh"><a href="" class="aa1">中文 </a><a href="" class="aa2">En</a> </div>
+  
+        </div>
+  
+  
+      </div>
+      <!-- header end -->
+        <!-- banner begin -->
+      <div class="banner">
+        <div class="dian1">
+  
+          <ul>
+                <li class="on">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+          </ul>
+  
+  
+  
+  
+        </div>
+      </div>
+       <!-- banner end -->
+        <!-- content begin -->
+       <div class="content">
+        <div class="inner_c">
+          <div class="product">
+            <ul>
+              <li><p class="por_img"><img src="../images/bpt.jpg" alt=""></p>
+              <h3>BTP宣传片</h3>
+              <p class="play"><a href="#">点击播放</a></p>
+              </li>
+              <li><p class="por_img"><img src="../images/video.jpg" alt=""></p>
+                <h3>领导视频</h3>
+                <p class="play"><a href="#">点击播放</a></p>
+              
+              </li>
+              <li><p class="por_img"><img src="../images/gamepic3.jpg" alt=""></p>
+                <h3>机械斗地主</h3>
+                <p class="play"><a href="#">点击播1放</a></p>
+              
+              </li>
+              <li class="last2"><p class="por_img"><img src="../images/gamepic1.jpg" alt=""></p>
+               <h3>德州扑克</h3>
+                <p class="play"><a href="#">点击播放</a></p>
+              </li>
+            </ul>
+          </div>
+          <div class="info">
+      <div class="boyaanews">
+        <a href="#" class="more">MORE <sup>+</sup> </a>
+        <ul>
+            <li><a href="">深圳市副市长吴以环一行莅临博雅互动参观调研</a><span>5/23</span> </li>
+            <li><a href="">博雅互动公布2019年第一季度业绩</a><span>5/23</span> </li>
+            <li><a href="">博雅互动公布2018全年业绩</a> <span>5/23</span></li>
+            <li><a href="">博雅互动公布2018年第三季度业绩，善用成本费用控制政策,...</a><span>5/23</span> </li>
+  
+           </ul> 
+          </div>
+
+          <!-- content end -->
+        <!-- footer begin -->
+          <!-- footer end --><!-- 社会招聘 开始 -->
+<div class="byzp">
+  <div class="kk">
+  <h2>社会招聘</h2>
+  <p>BOYAA JOBS</p>
+  </div>
+  <a href="#" class="more">MORE<sup>+</sup></a>
+  <ul>
+  <h4>社会招聘岗位：</h4>
+  <li><a href="#">PHP开发工程师</a></li>
+  <li><a href="#">C++开发工程师</a></li>
+  <li><a href="#">LUA开发工程师</a></li>
+  <li><a href="#">大数据开发工程师</a></li>
+  </ul>
+  </div>
+  <!-- 社会招聘 结束 -->
+  </div>
+  </div>
+  
+  
+  </div>
+  </div>
+  </div>
+  <!-- content end -->
+  <!-- footer begin -->
+  <footer>
+  <div>
+  <p>网站地图 | 免责声明 | 监督举报</p>
+  <p>Copyright © 2004 - 2019 博雅互动(Boyaa Interactive)粤ICP备05062536号</p>
+  <p>网络文化经营许可证：粤网文[2015]1991-405号 | 互联网出版许可证：新出网证（粤）字062号
+  | 增值电信业务经营许可证：粤B2-20110513 深圳市市场监督管理局企业主体身份公示 <img src="../images/govIcon.gif"/> </p>
+  </div>
+  </footer>
+</body>
+</html>
